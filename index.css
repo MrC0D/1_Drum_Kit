@@ -1,3 +1,20 @@
-.button{
-    background-color: aquamarine;
+
+#container{
+background-color: blue;
+margin-top: 20%;
+height: 60%;
+width: 100%;
+flex-direction: row;
+
 }
+
+button{
+    margin: 1em;
+    flex-direction: row;
+    padding: 2em;
+}
+
+button:hover{
+transform: scale(1.1);
+    background-color: blueviolet;
+    }

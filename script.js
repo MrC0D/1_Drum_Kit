@@ -1,4 +1,4 @@
-const btn = document.querySelectorAll("button");
+const btn = document.querySelector("#A");
 
 //const btn2 = 
 
