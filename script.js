@@ -50,42 +50,44 @@ btn9.addEventListener("keydown", (event) => {
 });
 
 /*
+reproducir sonidos cuando se hace "click"
 */
 
 btn.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("a");
 })
 
-btn2.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+btn2.addEventListener("click",(event)=>{
+    //playSound("");
+    playSound("s");
 })
 
 btn3.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("d");
 })
 
 btn4.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("f");
 })
 
 btn5.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("g");
 })
 
 btn6.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("h");
 })
 
 btn7.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("j");
 })
 
 btn8.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("k");
 })
 
 btn9.addEventListener("click",()=>{
-    playSound(btn.id.toLowerCase());
+    playSound("l");
 })
 
 
